@@ -1,0 +1,21 @@
+# Prepare for Heat IRC meeting - 25/07/2017
+
+Rolling-upgrade discussion
+
+Hi all. Today I'm here to discuss with you about rolling upgrade. The related patch sets:
+
+1. Spec patch set:
+
+#link https://review.openstack.org/#/c/407989
+
+2. Doc patch set:
+
+#link https://review.openstack.org/#/c/475853/
+
+3. Multinode patch set:
+
+#link https://review.openstack.org/#/c/482048/
+
+5. Conversation with openstack-qa PTL - Andrea Frittoli(andreaf)
+
+#link http://eavesdrop.openstack.org/irclogs/%23openstack-qa/%23openstack-qa.2017-07-06.log.html
