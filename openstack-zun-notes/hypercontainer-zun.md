@@ -25,7 +25,7 @@ Docker images on plain hyper.
 
 ## Work items
 
-1. Develope a HyperContainer python client a.k.a *hyperctn-py*. We can ref [docker-py](https://github.com/docker/docker-py), [hyper REST API doc](https://docs.hyper.sh/Reference/API/index.html) & [hypernova](https://github.com/hyperhq/hypernova/)
+1. Develope a HyperContainer python client a.k.a *hyperctn-py*. We can ref [docker-py](https://github.com/docker/docker-py), [hyper REST API doc](https://docs.hyper.sh/Reference/API/index.html) & [hypernova](https://github.com/hyperhq/hypernova/) && [hyper python](https://github.com/tardyp/hyper_sh/)
 
 2. Upload hyperctn-py to PyPi then we can install it via pip.
 
