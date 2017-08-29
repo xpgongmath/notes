@@ -12,3 +12,7 @@ the log](http://logs.openstack.org/19/485419/16/check/gate-tempest-dsvm-zun-mult
 1. [The defined bug #1690284](https://bugs.launchpad.net/zun/+bug/1690284)
 
 2. #TBD
+
+Etherpad: https://etherpad.openstack.org/p/zun-multihost-problems
+
+Related bp: https://blueprints.launchpad.net/kuryr-libnetwork/+spec/existing-subnet
