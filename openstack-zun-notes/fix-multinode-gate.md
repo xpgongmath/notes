@@ -28,3 +28,5 @@ Set to SERVICE\_HOST. Problem is solved.
 
     --> _get_container_state will use docker.client() to get_container() in
     localhost. With container which is created in another host --> None.
+
+The approach: http://paste.ubuntu.com/25482987/
