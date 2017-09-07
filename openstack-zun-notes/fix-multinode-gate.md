@@ -16,3 +16,15 @@ the log](http://logs.openstack.org/19/485419/16/check/gate-tempest-dsvm-zun-mult
 Etherpad: https://etherpad.openstack.org/p/zun-multihost-problems
 
 Related bp: https://blueprints.launchpad.net/kuryr-libnetwork/+spec/existing-subnet
+
+------------------------------------------------------------------------------------
+
+> NOTE (07/09/2017): The previous error raised because DOCKER_CLUSTER_STORE -> HOST\_API.
+Set to SERVICE\_HOST. Problem is solved.
+
+> Still exists another problem:
+
+    self.assertEqual('Running', self._get_container_state(model.uuid))
+
+    --> _get_container_state will use docker.client() to get_container() in
+    localhost. With container which is created in another host --> None.
