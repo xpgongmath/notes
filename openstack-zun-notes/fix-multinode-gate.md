@@ -16,3 +16,13 @@ the log](http://logs.openstack.org/19/485419/16/check/gate-tempest-dsvm-zun-mult
 Etherpad: https://etherpad.openstack.org/p/zun-multihost-problems
 
 Related bp: https://blueprints.launchpad.net/kuryr-libnetwork/+spec/existing-subnet
+
+
+09/09/2017
+
+Figure out the problem but unable to test it [1]. The gate failed because of some
+strange reason [2]. Exit code 137 - Running out of memory.
+
+[1] https://review.openstack.org/#/c/501651/
+[2]
+http://logs.openstack.org/51/501651/10/experimental/gate-tempest-dsvm-zun-multinode-docker-sql-ubuntu-xenial-nv/b7b364a/console.html#_2017-09-09_03\_10\_01\_463016
