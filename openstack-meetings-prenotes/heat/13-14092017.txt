@@ -1,0 +1,15 @@
+Heat PTG 2017 Prepration
+
+
+Etherpad: https://etherpad.openstack.org/p/heat-queens-ptg
+Zoom meeting: https://zoom.us/j/709242904
+
+1. Rolling upgrade session - Wednesday September 13th
+
+Implementing Rolling-upgrade specific procedure in Heat, done with
+developement and documentation work.
+
+- Etherpad: https://etherpad.openstack.org/p/heat-rolling-upgrade
+- Related patch sets: Etherpad.
+- Video: https://www.youtube.com/watch?v=yboTuNeaLbI
+- Scripts: https://github.com/ntk148v/heat-rolling-upgrades
