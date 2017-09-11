@@ -17,16 +17,12 @@ Etherpad: https://etherpad.openstack.org/p/zun-multihost-problems
 
 Related bp: https://blueprints.launchpad.net/kuryr-libnetwork/+spec/existing-subnet
 
-------------------------------------------------------------------------------------
 
-> NOTE (07/09/2017): The previous error raised because DOCKER_CLUSTER_STORE -> HOST\_API.
-Set to SERVICE\_HOST. Problem is solved.
+> 09/09/2017
 
-> Still exists another problem:
+Figure out the problem but unable to test it [1]. The gate failed because of some
+strange reason [2]. Exit code 137 - Running out of memory.
 
-    self.assertEqual('Running', self._get_container_state(model.uuid))
-
-    --> _get_container_state will use docker.client() to get_container() in
-    localhost. With container which is created in another host --> None.
-
-The approach: http://paste.ubuntu.com/25482987/
+[1] https://review.openstack.org/#/c/501651/
+[2]
+http://logs.openstack.org/51/501651/10/experimental/gate-tempest-dsvm-zun-multinode-docker-sql-ubuntu-xenial-nv/b7b364a/console.html#_2017-09-09_03\_10\_01\_463016
